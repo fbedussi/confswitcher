@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none !important;
+}
+
+body {
+    padding: 1em;
+}
+
+.header {
+    height: 6em;
+}
+.confWrapper {
+    display: flex;
+    height: calc(100vh - 8em);
+}
+
+.originalConfWrapper, .convertedConfWrapper {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.originalConf, .convertedConf {
+    flex: 1;
+}
+

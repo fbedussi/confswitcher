@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.6.0/clipboard.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Conf switcher</h1>
+        <div class="menuBar">
+            <button id="convertBtn">Convert conf (ctrl + shift + f)</button>
+            <button id="resetBtn">Reset (ctrl + shift + x)</button>
+            <button id="copyBtn" data-clipboard-target="#convertedConf">Copy to clipboard</button>
+        </div>
+    </header>
+    <main class="confWrapper">
+        <div class="originalConfWrapper">
+            <h2>Original Conf</h2>
+            <textarea id="originalConf" class="originalConf"></textarea>
+        </div>
+        <div class="convertedConfWrapper">
+            <h2>Converted Conf</h2>
+            <textarea id="convertedConf" class="convertedConf"></textarea>
+        </div>
+    </main>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
