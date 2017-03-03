@@ -1,1 +1,1 @@
-Super minimal website boilerplate
+Cons switcher, currently switch placeholder with label if this is empty
